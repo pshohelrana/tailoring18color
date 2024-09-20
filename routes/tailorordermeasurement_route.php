@@ -1,0 +1,13 @@
+<?php
+if($page=="create-tailorordermeasurement"){
+	$found=include("views/pages/ui/tailorordermeasurement/create_tailorordermeasurement.php");
+}elseif($page=="edit-tailorordermeasurement"){
+	$found=include("views/pages/ui/tailorordermeasurement/edit_tailorordermeasurement.php");
+}elseif($page=="tailor_order_measurements"){
+	$found=include("views/pages/ui/tailorordermeasurement/manage_tailorordermeasurement.php");
+}elseif($page=="details-tailorordermeasurement"){
+	$found=include("views/pages/ui/tailorordermeasurement/details_tailorordermeasurement.php");
+}elseif($page=="view-tailorordermeasurement"){
+	$found=include("views/pages/ui/tailorordermeasurement/view_tailorordermeasurement.php");
+}
+?>

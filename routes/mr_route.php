@@ -1,0 +1,11 @@
+<?php
+if($page=="mr"){
+	$found=include("views/pages/mr/money_receipt.php");
+}elseif($page=="tailor-mr"){
+	$found=include("views/pages/mr/create_tailor_moneyreceipt.php");
+}elseif($page=="tailor-manage-mr"){
+	$found=include("views/pages/mr/manage_tailor_moneyreceipt.php");
+}elseif($page=="tailor-mr-details"){
+	$found=include("views/pages/mr/details_tailor_moneyreceipt.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-tailororderdetail"){
+	$found=include("views/pages/ui/tailororderdetail/create_tailororderdetail.php");
+}elseif($page=="edit-tailororderdetail"){
+	$found=include("views/pages/ui/tailororderdetail/edit_tailororderdetail.php");
+}elseif($page=="tailor_order_details"){
+	$found=include("views/pages/ui/tailororderdetail/manage_tailororderdetail.php");
+}elseif($page=="details-tailororderdetail"){
+	$found=include("views/pages/ui/tailororderdetail/details_tailororderdetail.php");
+}elseif($page=="view-tailororderdetail"){
+	$found=include("views/pages/ui/tailororderdetail/view_tailororderdetail.php");
+}
+?>

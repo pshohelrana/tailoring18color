@@ -1,0 +1,13 @@
+<?php
+if($page=="create-tailormoneyreceiptdetail"){
+	$found=include("views/pages/ui/tailormoneyreceiptdetail/create_tailormoneyreceiptdetail.php");
+}elseif($page=="edit-tailormoneyreceiptdetail"){
+	$found=include("views/pages/ui/tailormoneyreceiptdetail/edit_tailormoneyreceiptdetail.php");
+}elseif($page=="tailor_money_receipt_details"){
+	$found=include("views/pages/ui/tailormoneyreceiptdetail/manage_tailormoneyreceiptdetail.php");
+}elseif($page=="details-tailormoneyreceiptdetail"){
+	$found=include("views/pages/ui/tailormoneyreceiptdetail/details_tailormoneyreceiptdetail.php");
+}elseif($page=="view-tailormoneyreceiptdetail"){
+	$found=include("views/pages/ui/tailormoneyreceiptdetail/view_tailormoneyreceiptdetail.php");
+}
+?>

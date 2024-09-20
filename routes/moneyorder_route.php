@@ -1,0 +1,13 @@
+<?php
+if($page=="create-moneyorder"){
+	$found=include("views/pages/moneyorder/create_moneyorder.php");
+}elseif($page=="edit-moneyorder"){
+	$found=include("views/pages/moneyorder/edit_moneyorder.php");
+}elseif($page=="money_orders"){
+	$found=include("views/pages/moneyorder/manage_moneyorder.php");
+}elseif($page=="details-moneyorder"){
+	$found=include("views/pages/moneyorder/details_moneyorder.php");
+}elseif($page=="view-moneyorder"){
+	$found=include("views/pages/moneyorder/view_moneyorder.php");
+}
+?>
